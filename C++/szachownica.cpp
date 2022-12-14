@@ -18,7 +18,7 @@ int main()
     
     for(i=0; i<N; i++){
       for(j=0; j<N; j++)
-        cout << (((i+j)%2 == 0) ? 'X' : ' ');  // te nawiasy sa wazne, sprobuj bez
+        cout << (((i+j)%2 == 0) ? 'X' : '_');  // te nawiasy sa wazne, sprobuj bez
       cout << endl;    
     }
     
